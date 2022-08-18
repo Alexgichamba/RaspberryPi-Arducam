@@ -342,7 +342,7 @@ typedef struct
     unsigned long  dataLength;
     uint8_t        pu8ImageData[JPEG_BUF_SIZE];
     uint8_t cameraID;
-    unsigned int errCount = 0;
+    unsigned int errCount;
 }imageData;
 
 

@@ -1,5 +1,5 @@
 NAME=run_Arducam_Demo
-CC=gcc
+CC=g++
 CFLAGS=-Wall -pthread 
 ODIR=obj
 SDIR=src
